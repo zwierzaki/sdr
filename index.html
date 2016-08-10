@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" /> -->
+    <title>Pet Adoption Prototype</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="lib/normalize-css/normalize.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/fontello.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600">
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="search">
+          <i class="icon-search"></i>
+          <input type="search" placeholder="What kind of pet are you looking for?" />
+          <div class="dropdown">
+            <div class="dd-header">Examples</div>
+            <ul class="examples">
+              <li>black and brown dachshund</li>
+              <li>small dog good with children</li>
+              <li>fluffy cat</li>
+            </ul>
+          </div>
+        </div>
+        <div class="user">
+          <div class="avatar"></div>
+          <i class="icon-down-open"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Content -->
+    <div id="pets">
+      <div class="container">
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      Created by <a href="http://lizzie.li">Lizzie Li</a> for <a href="http://www.google.com">Google</a>.
+    </footer>
+
+    <!-- Handlebars Templates -->
+    <script type="text/x-handlebars-template" id="pet-list">
+      {{#each pets}}
+        <div class="card" data-tags="{{tags}}" data-rank="0">
+          <div class="image" style="background-image: url('{{image_url}}');"></div>
+          <div class="summary">
+            <div class="name">{{name}}</div>
+            <div class="description">
+              <span class="breed">{{breed}}</span>
+              <span class="bullet">&bull;</span>
+              <span class="age">{{age}}</span>
+              <span class="bullet">&bull;</span>
+              <span class="gender">{{gender}}</span>
+            </div>
+          </div>
+        </div>
+      {{/each}}
+    </script>
+
+    <!-- JS -->
+    <script type="text/javascript" src="lib/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="lib/handlebars/handlebars.js"></script>
+    <script type="text/javascript" src="js/data.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "pet search proto",
+  "authors": [
+    "Lizzie Li <hi@lizzie.li>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "handlebars": "^4.0.5",
+    "normalize-css": "^4.1.1"
+  }
+}
