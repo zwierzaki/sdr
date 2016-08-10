@@ -4,5 +4,5 @@ While interviewing at Google, I was asked to design an experience that helps pot
 
 Read about my full design process for this exercise: http://lizzie.li/google
 
-Username: google
+Username: google<br>
 Password: design
