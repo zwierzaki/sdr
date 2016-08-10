@@ -8,5 +8,5 @@ View the prototype [here](https://etli.github.io/google-pet-adoption/).
 
 Read about my full design process for this exercise: http://lizzie.li/google
 
-Username: google
+Username: google<br>
 Password: design
