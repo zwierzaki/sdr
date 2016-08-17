@@ -6,7 +6,4 @@ View the prototype [here](https://etli.github.io/google-pet-adoption/).
 
 ### Design Process
 
-Read about my full design process for this exercise: http://lizzie.li/google
-
-Username: google<br>
-Password: design
+Read about my full design process for this exercise at http://lizzie.li/google
