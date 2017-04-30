@@ -1,9 +1,16 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" /> -->
-    <title>Pet Adoption Prototype</title>
+    <meta charset="windows-1250">
+<meta property="og:url"                content="http://dogrescue.zwierzaki.info" />
+<meta property="og:type"               content="article" />
+<meta property="og:title"              content="Adoptuj Psiaka, Adoptuj Kociaka - Dog Rescue" />
+<meta property="og:description"        content="Adoptuj psiego lub kociego przyjaciela, najlepszego na świecie. Podopieczni Stowarzyszenia Dog Rescue polecają się." />
+<meta property="og:image"              content="http://dogrescue.zwierzaki.info/logo.jpg" />
+<link rel="icon" href="http://dogrescue.zwierzaki.info/logo.png">
+<meta name="description" content="Adoptuj psiego lub kociego przyjaciela, najlepszego na świecie. Podopieczni Stowarzyszenia Dog Rescue polecają się.">
+    <!-- <meta name="viewport" content="width=auto, initial-scale=1.0, minimum-scale=1.0" /> -->
+    <title>Adoptuj Zwierzaka - Stowarzyszenie Dog Rescue</title>
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="lib/normalize-css/normalize.css" media="screen" />
@@ -20,13 +27,13 @@
       <div class="container">
         <div class="search">
           <i class="icon-search"></i>
-          <input type="search" placeholder="What kind of pet are you looking for?" />
+          <input type="search" placeholder="Jakiego zwierzaka szukasz?" />
           <div class="dropdown">
-            <div class="dd-header">Examples</div>
+            <div class="dd-header">Przykład</div>
             <ul class="examples">
-              <li>black and brown dachshund</li>
-              <li>small dog good with children</li>
-              <li>fluffy cat</li>
+              <li>radosny pies</li>
+              <li>łagodna suczka</li>
+              <li>spokojna kotka</li>
             </ul>
           </div>
         </div>
@@ -45,7 +52,7 @@
 
     <!-- Footer -->
     <footer>
-      Created by <a href="http://lizzie.li">Lizzie Li</a> for <a href="http://www.google.com">Google</a>.
+      Adoptuj Psiaka, Adoptuj Kociaka 2017 - Stworzyli wolontariusze <a href="http://dogrescue.pl">Stowarzyszenia Dog Rescue</a> 
     </footer>
 
     <!-- Handlebars Templates -->
@@ -60,7 +67,11 @@
               <span class="bullet">&bull;</span>
               <span class="age">{{age}}</span>
               <span class="bullet">&bull;</span>
-              <span class="gender">{{gender}}</span>
+              <span class="gender">{{gender}}</span><br>
+			  <span class="gender"><a href="{{facebook}}" target="_blank">galeria</a></span>
+			  <!-- <span class="bullet">&bull;</span>
+			  <span class="gender"><a href="{{omnie}}" target="_blank">o mnie</a></span> -->
+			  
             </div>
           </div>
         </div>
