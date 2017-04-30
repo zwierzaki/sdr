@@ -3,319 +3,297 @@
 var data = {
   pets: [
     {
-      name: 'Spanky',
+      name: 'Dona',
       animal: 'dog',
-      breed: 'Pit Bull & Terrier Mix',
-      age: 'Adult',
-      gender: 'Male',
-      image_url: 'img/pets/spanky.jpeg',
-      tags: ['dog', 'pit bull', 'terrier', 'adult', 'male', 'large', 'black', 'white', 'playful', 'energetic']
+      breed: 'Bokserek',
+      age: '4 lata',
+      gender: 'Suczka',
+      image_url: 'img/pets/dona.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=1101434396637650',
+	  omnie: 'dona.html',
+      tags: ['pies', 'bokser', 'bokserek', 'dorosły', '4', 'dominująca', 'średni', 'karmelowy', 'brązowy', 'energiczna', 'łagodna', 'łagodny', 'suczka', 'karmelowa', 'dona']
     },
     {
-      name: 'Wally',
+      name: 'Ziutek',
+      animal: 'dog',
+      breed: 'w typie jamnika',
+      age: '2 lata',
+      gender: 'Samiec',
+      image_url: 'img/pets/ziutek.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=913111915469900',
+      tags: ['pies', 'przyjacielski', 'krótkowłosy', 'dorosły', 'samiec', 'mały', 'biszkoptowy', 'beżowy', 'radosny', 'zabawa', 'kontaktowy', 'ziutek']
+    },
+    {
+      name: 'Migotka',
+      animal: 'dog',
+      breed: 'Micro Colie',
+      age: 'seniorka',
+      gender: 'Suczka',
+      image_url: 'img/pets/migotka.jpg',
+	  facebook: 'https://web.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=1281932115254543',
+      tags: ['pies', 'przyjacielski', 'dorosły', 'suczka', 'mały', 'ciemny', 'radosny', 'dzieci', 'kontaktowy', 'micro colie', 'kundelek', 'migotka']
+    },
+    {
+      name: 'Pikuś',
+      animal: 'dog',
+      breed: 'Kundelek',
+      age: '4 lata',
+      gender: 'Samiec',
+      image_url: 'img/pets/pikus.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=490333897747706',
+      tags: ['pies', 'przyjacielski', 'dorosły', 'samiec', 'mały', 'jasny', 'biszkoptowy', 'beżowy', 'przyjacielski', 'łagodny', 'radosny', 'dzieci', 'kontaktowy', 'kundelek', 'pikuś']
+    },
+    {
+      name: 'Kumpel',
+      animal: 'dog',
+      breed: 'W typie Sznaucerka',
+      age: 'Młody',
+      gender: 'Samiec',
+      image_url: 'img/pets/kumpel.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=1188833781231044',
+      tags: ['pies', 'przyjacielski', 'młody', 'samiec', 'mały', 'mix', 'przyjacielski', 'łagodny', 'radosny', 'dzieci', 'kontaktowy', 'kundelek', 'do innych psów', 'kumpel']
+    },
+   
+	{
+      name: 'Gucio',
+      animal: 'dog',
+      breed: 'Wilczur',
+      age: '8 lat',
+      gender: 'Samiec',
+      image_url: 'img/pets/gucio.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=367124443401986',
+      tags: ['pies', 'towarzyski', 'dorosły', 'samiec', 'duży', 'posłuszny', 'do suczki', 'do domu z ogrodem', 'ogród', 'pieszczoch', 'spacery', 'gucio']
+    },
+	{
+      name: 'Pelikan',
+      animal: 'dog',
+      breed: 'Kundelek',
+      age: 'Starszy, ok.9 lat',
+      gender: 'Samiec',
+      image_url: 'img/pets/pelikan.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=408191629295267',
+      tags: ['pies', 'przyjacielski', 'starszy', 'samiec', 'średni', 'kundelek', 'łagodny', 'radosny', 'wesoły', 'pelikan']
+    },
+	{
+      name: 'Dyzio',
+      animal: 'dog',
+      breed: 'Kundelek',
+      age: 'Starszy, ok.10 lat',
+      gender: 'Samiec',
+      image_url: 'img/pets/dyzio.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=907841812663577',
+      tags: ['pies', 'przyjacielski', 'starszy', 'samiec', 'średni', 'kundelek', 'pozytywny', 'radosny', 'wesoły', 'zadbany', 'ciepłolubny', 'dyzio']
+    },	
+	{
+      name: 'Kazan',
+      animal: 'dog',
+      breed: 'Amstaff',
+      age: 'powyżej 6 lat',
+      gender: 'Samiec',
+      image_url: 'img/pets/kazan.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=929773047137120',
+      tags: ['pies', 'samiec', 'średni', 'amstaff', 'spokojny pies', 'kochany', 'starszy', 'kazan']
+    },
+	{
+      name: 'Rodnej',
+      animal: 'dog',
+      breed: 'w typie Bernardyna',
+      age: '9 lat',
+      gender: 'Samiec',
+      image_url: 'img/pets/rodnej.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=842594389188320',
+      tags: ['pies', 'samiec', 'duży', 'wesoły', 'energiczny', 'kochany', 'starszy', 'stróż', 'spacery', 'bernardyn', 'rodnej']
+    },
+	{
+      name: 'Adaś',
+      animal: 'dog',
+      breed: '',
+      age: '6 lat',
+      gender: 'Samiec',
+      image_url: 'img/pets/adas.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=324569007657530',
+      tags: ['pies', 'samiec', 'duży', 'wesoły', 'energiczny', 'kochany', 'sport', 'brązowy', 'spacery', 'aktywny', 'doberman', 'gończy', 'adaś']
+    },
+		{
+      name: 'Heks',
+      animal: 'dog',
+      breed: 'Kundelek',
+      age: 'Starszy',
+      gender: 'Samiec',
+      image_url: 'img/pets/heks.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=912365968877828',
+      tags: ['pies', 'samiec', 'duży', 'wesoły', 'rezerwa', 'czas', 'brązowy', 'spacery', 'owczarek', 'heks', 'reks']
+    },
+	{
+      name: 'Lusia',
+      animal: 'dog',
+      breed: 'Kundelek',
+      age: '5 lat',
+      gender: 'Suczka',
+      image_url: 'img/pets/lusia.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=555879417859820',
+      tags: ['pies', 'suczka', 'sunia', 'pieszczoch', 'łobuziak', 'czas', 'brązowy', 'szylkret', 'spacery', 'lusia']
+    },
+	{
+      name: 'Tadek',
+      animal: 'dog',
+      breed: 'Owczarko-jamnik',
+      age: '6-8 lat',
+      gender: 'Samiec',
+      image_url: 'img/pets/tadzik.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=1010297465751344',
+      tags: ['pies', 'samiec', 'jamnik', 'owczarek', 'kontaktowy', 'towarzyski', 'broni domu', 'toleruje sunie', 'brązowy', 'czarny', 'tadek', 'tadzik']
+    },
+	{
+      name: 'Sanczo',
+      animal: 'dog',
+      breed: 'Kundelek',
+      age: '2 lata',
+      gender: 'Samiec',
+      image_url: 'img/pets/sanczo.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=1019194824861608',
+      tags: ['pies', 'samiec', 'mały', 'kundelek', 'kontaktowy', 'towarzyski', 'żywiołowy', 'słodki', 'biały', 'czarny', 'sanczo']
+    },
+	{
+      name: 'Sajan',
+      animal: 'dog',
+      breed: 'Owczarek Środkowoazj.',
+      age: '5 lat',
+      gender: 'Samiec',
+      image_url: 'img/pets/sajan.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=1099319286849161',
+      tags: ['pies', 'samiec', 'duży', 'owczarek', 'stróżujący', 'obronny', 'boski', 'beżowy', 'biały', 'biszkoptowy', 'uroczy','sajan']
+    },
+	{
+      name: 'Iskierka',
+      animal: 'dog',
+      breed: 'Kundelek',
+      age: 'ok. 7 lat',
+      gender: 'Suczka',
+      image_url: 'img/pets/iskierka.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=1195937267187362',
+      tags: ['pies', 'suczka', 'mała', 'drobniutka', 'kudłata', 'czarna', 'urocza', 'przekochana', 'kochana', 'przylepa', 'akceptuje psy', 'dzieci', 'łagodna', 'spokojna', 'nie niszczy', 'sama w domu', 'iskierka']
+    },
+	{
+      name: 'Wito',
+      animal: 'dog',
+      breed: 'Kundelek',
+      age: 'ok. 1.5 roku',
+      gender: 'Samiec',
+      image_url: 'img/pets/wito.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=1114316855349404',
+      tags: ['pies', 'samiec', 'mały', 'obserwujący', 'aktywny', 'czarny', 'spacery', 'wito']
+    },
+	{
+      name: 'Lajla',
+      animal: 'dog',
+      breed: 'W typie Owczarka',
+      age: '7 lat',
+      gender: 'Suczka',
+      image_url: 'img/pets/lajla.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=1211621605618928',
+      tags: ['pies', 'suczka', 'owczarek', 'średni', 'kontaktowa', 'towarzyska', 'spacery', 'do kolana', 'lajla']
+    },
+    
+	{
+      name: 'Vixi',
+      animal: 'dog',
+      breed: 'Kundelek',
+      age: '6 lat',
+      gender: 'Suczka',
+      image_url: 'img/pets/vixi.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=1222743011173454',
+      tags: ['pies', 'suczka', 'popielata', 'beżowa', 'średnia', 'łagodna', 'wrażliwa', 'drugi pies', 'delikatna', 'vixi']
+    },
+	{
+      name: 'Ekler',
+      animal: 'dog',
+      breed: 'Kundelek',
+      age: '3 lata',
+      gender: 'Samiec',
+      image_url: 'img/pets/ekler.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=1261141054000316',
+      tags: ['pies', 'samiec', 'kudłaty', 'kontaktowy', 'pewny siebie', 'auto', 'dzieci', 'brązowy', 'delikatna', 'ekler']
+	
+    },
+	{
+      name: 'Champion',
+      animal: 'dog',
+      breed: 'Kundelek',
+      age: 'Starszy',
+      gender: 'Samiec',
+      image_url: 'img/pets/champion.jpg',
+	  facebook: 'https://www.facebook.com/events/1202771879818924',
+      tags: ['pies', 'samiec', 'krótkowłosy', 'champion', 'biszkoptowy', 'fajny', 'mały']
+	
+    },
+	{
+      name: 'Poker',
+      animal: 'dog',
+      breed: 'Kundelek',
+      age: 'Starszy',
+      gender: 'Samiec',
+      image_url: 'img/pets/poker.jpg',
+	  facebook: 'https://www.facebook.com/events/1202771879818924',
+      tags: ['pies', 'samiec', 'krótkowłosy', 'poker', 'biszkoptowy', 'fajny', 'mały', 'kontaktowy', 'akceptuje psy', 'pozytywny', 'przytulas']
+	
+    },
+	{
+      name: 'Limba',
+      animal: 'dog',
+      breed: 'W typie labradora',
+      age: 'ok.9 lat',
+      gender: 'Suczka',
+      image_url: 'img/pets/limba.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=933327073448384',
+      tags: ['pies', 'suczka', 'krótkowłosa', 'limba', 'biszkoptowy', 'biszkoptowa', 'fajna', 'fajny', 'średnia', 'kontaktowa', 'akceptuje psy', 'pozytywna', 'łagodna', 'mądra', 'psina' ]
+	
+    },
+	{
+      name: 'Gryz',
+      animal: 'dog',
+      breed: 'Kundelek',
+      age: 'Dorosły',
+      gender: 'Samiec',
+      image_url: 'img/pets/gryz.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=1239311296183292',
+      tags: ['pies', 'samiec', 'krótkowłosy', 'gryz', 'czarny', 'ogród', 'ogrodu', 'fajny', 'mały', 'z charakterem', 'stróż', 'kumpel', 'mądry'  ]
+	
+    },
+	{
+      name: 'Blinder',
       animal: 'cat',
-      breed: 'Domestic Short Hair Mix',
-      age: 'Adult',
-      gender: 'Male',
-      image_url: 'img/pets/wally.jpeg',
-      tags: ['cat', 'domestic', 'short hair', 'adult', 'male', 'medium', 'orange', 'white', 'quiet']
+      breed: 'Europejski',
+      age: 'dorosły',
+      gender: 'Kocurek',
+      image_url: 'img/pets/blinder.jpg',
+	  facebook: 'https://www.facebook.com/pg/StowarzyszenieDogRescue/photos/?tab=album&album_id=1242351925879229',
+      tags: ['kot', 'kocur', 'biały', 'bury', 'dorosły', 'blinder']
+	
     },
-    {
-      name: 'Ellen',
-      animal: 'dog',
-      breed: 'Chihuahua Mix',
-      age: 'Baby',
-      gender: 'Female',
-      image_url: 'img/pets/ellen.jpeg',
-      tags: ['dog', 'chihuahua', 'baby', 'female', 'short hair', 'small', 'brown', 'white', 'children', 'affectionate']
-    },
-    {
-      name: 'Isabel',
+	{
+      name: 'Pepsi',
       animal: 'cat',
-      breed: 'Domestic Long Hair Mix',
-      age: 'Adult',
-      gender: 'Female',
-      image_url: 'img/pets/isabel.jpeg',
-      tags: ['cat', 'domestic', 'long hair', 'adult', 'female', 'small', 'grey', 'sweet', 'fluffy']
+      breed: 'Europejski',
+      age: 'ok.7 m-cy',
+      gender: 'Kotka',
+      image_url: 'img/pets/pepsi.jpg',
+	  facebook: '#',
+      tags: ['kot', 'kotka', 'kociak', 'bury', 'kicia', 'spokojna', 'zabawa', 'bawić', 'akceptuje koty', 'młody', 'pepsi']
+	
     },
-    {
-      name: 'Fozzy',
-      animal: 'rabbit',
-      breed: 'Bunny Rabbit',
-      age: 'Young',
-      gender: 'Male',
-      image_url: 'img/pets/fozzy.jpeg',
-      tags: ['rabbit', 'bunny rabbit', 'young', 'male', 'small', 'brown', 'gentle', 'playful']
-    },
-    {
-      name: 'Daisy Duck',
+	{
+      name: 'Panda',
       animal: 'cat',
-      breed: 'Terrier & Dachshund Mix',
-      age: 'Adult',
-      gender: 'Female',
-      image_url: 'img/pets/daisy_duck.jpeg',
-      tags: ['dog', 'terrier', 'dachshund', 'baby', 'female', 'small', 'brown', 'black', 'white', 'tricolor', 'playful']
-    },
-    {
-      name: 'Woody',
-      animal: 'dog',
-      breed: 'Chihuahua Mix',
-      age: 'Baby',
-      gender: 'Male',
-      image_url: 'img/pets/woody.jpeg',
-      tags: ['dog', 'chihuahua', 'baby', 'male', 'short hair', 'small', 'brown', 'white', 'children', 'quiet']
-    },
-    {
-      name: 'Berta',
-      animal: 'dog',
-      breed: 'Dachshund & Chihuahua Mix',
-      age: 'Baby',
-      gender: 'Female',
-      image_url: 'img/pets/berta.jpeg',
-      tags: ['dog', 'chihuahua', 'dachshund', 'baby', 'female', 'small', 'brown', 'children', 'quiet']
-    },
-    {
-      name: 'Brownie',
-      animal: 'rabbit',
-      breed: 'Bunny Rabbit & Lionhead Mix',
-      age: 'Young',
-      gender: 'Male',
-      image_url: 'img/pets/brownie.jpeg',
-      tags: ['rabbit', 'bunny rabbit', 'lionhead', 'young', 'male', 'small', 'brown', 'fluffy']
-    },
-    {
-      name: 'Shazan',
-      animal: 'cat',
-      breed: 'Domestic Short Hair Mix',
-      age: 'Adult',
-      gender: 'Male',
-      image_url: 'img/pets/shazan.jpeg',
-      tags: ['cat', 'domestic', 'adult', 'male', 'short hair', 'large', 'black', 'brown', 'lazy']
-    },
-    {
-      name: 'Timber',
-      animal: 'dog',
-      breed: 'Miniature Pinscher Mix',
-      age: 'Young',
-      gender: 'Male',
-      image_url: 'img/pets/timber.jpeg',
-      tags: ['dog', 'miniature pinscher', 'young', 'male', 'medium hair', 'brown', 'playful', 'energetic']
-    },
-    {
-      name: 'Harry',
-      animal: 'dog',
-      breed: 'Spaniel & Dachshund Mix',
-      age: 'Baby',
-      gender: 'Male',
-      image_url: 'img/pets/harry.jpeg',
-      tags: ['dog', 'spaniel', 'dachshund', 'baby', 'male', 'medium', 'brown', 'blonde', 'children', 'lazy']
-    },
-    {
-      name: 'Julia',
-      animal: 'rabbit',
-      breed: 'Mini-Lop',
-      age: 'Adult',
-      gender: 'Female',
-      image_url: 'img/pets/julia.jpeg',
-      tags: ['rabbit', 'mini lop', 'adult', 'male', 'small', 'grey', 'quiet', 'fluffy']
-    },
-    {
-      name: 'Buttercup',
-      animal: 'dog',
-      breed: 'Chihuahua Mix',
-      age: 'Young',
-      gender: 'Male',
-      image_url: 'img/pets/buttercup.jpeg',
-      tags: ['dog', 'chihuahua', 'baby', 'male', 'short hair', 'small', 'brown', 'white', 'quiet']
-    },
-    {
-      name: 'Daisy',
-      animal: 'dog',
-      breed: 'Chihuahua Mix',
-      age: 'Adult',
-      gender: 'Female',
-      image_url: 'img/pets/daisy.jpeg',
-      tags: ['dog', 'chihuahua', 'adult', 'female', 'short hair', 'small', 'black', 'white', 'children', 'energetic']
-    },
-    {
-      name: 'Amidala',
-      animal: 'cat',
-      breed: 'Domestic Short Hair Mix',
-      age: 'Senior',
-      gender: 'Female',
-      image_url: 'img/pets/amidala.jpeg',
-      tags: ['cat', 'domestic', 'senior', 'female', 'short hair', 'small', 'white', 'black', 'brown', 'lazy']
-    },
-    {
-      name: 'Sylas',
-      animal: 'dog',
-      breed: 'Mountain Dog & Shepherd Mix',
-      age: 'Baby',
-      gender: 'Male',
-      image_url: 'img/pets/sylas.jpeg',
-      tags: ['dog', 'mountain dog','shepherd', 'baby', 'male', 'medium hair', 'large', 'black', 'brown', 'active']
-    },
-    {
-      name: 'Olive',
-      animal: 'dog',
-      breed: 'Mountain Dog & Shepherd Mix',
-      age: 'Young',
-      gender: 'Female',
-      image_url: 'img/pets/olive.jpeg',
-      tags: ['dog', 'mountain dog','shepherd', 'young', 'female', 'medium hair', 'large', 'brown', 'sweet']
-    },
-    {
-      name: 'Anthony',
-      animal: 'dog',
-      breed: 'Labrador Retriever & Mountain Dog Mix',
-      age: 'Young',
-      gender: 'Male',
-      image_url: 'img/pets/anthony.jpeg',
-      tags: ['dog', 'labrador retriever','mountain dog', 'young', 'male', 'short hair', 'medium', 'white']
-    },
-    {
-      name: 'Harper',
-      animal: 'rabbit',
-      breed: 'Bunny Rabbit',
-      age: 'Young',
-      gender: 'Female',
-      image_url: 'img/pets/harper.jpeg',
-      tags: ['rabbit', 'bunny rabbit', 'young', 'female', 'small', 'white']
-    },
-    {
-      name: 'Bunzie',
-      animal: 'dog',
-      breed: 'Pug Mix',
-      age: 'Young',
-      gender: 'Male',
-      image_url: 'img/pets/bunzie.jpeg',
-      tags: ['dog', 'pug', 'young', 'male', 'medium hair', 'small', 'brown', 'underbite']
-    },
-    {
-      name: 'Ollie',
-      animal: 'dog',
-      breed: 'Lhasa Apso Mix',
-      age: 'Adult',
-      gender: 'Male',
-      image_url: 'img/pets/ollie.jpeg',
-      tags: ['dog', 'lhasa apso', 'adult', 'male', 'medium hair', 'small', 'white', 'quiet']
-    },
-    {
-      name: 'Maggie',
-      animal: 'dog',
-      breed: 'Poodle Mix',
-      age: 'Adult',
-      gender: 'Female',
-      image_url: 'img/pets/maggie.jpeg',
-      tags: ['dog', 'poodle', 'adult', 'female', 'long hair', 'small', 'white', 'playful', 'fluffy']
-    },
-    {
-      name: 'Tim',
-      animal: 'rabbit',
-      breed: 'English Spot',
-      age: 'Adult',
-      gender: 'Male',
-      image_url: 'img/pets/tim.jpeg',
-      tags: ['rabbit', 'english spot', 'adult', 'male', 'large', 'white', 'black']
-    },
-    {
-      name: 'Susie',
-      animal: 'dog',
-      breed: 'Dachshund',
-      age: 'Young',
-      gender: 'Female',
-      image_url: 'img/pets/susie.jpeg',
-      tags: ['dog', 'dachshund', 'young', 'female', 'small', 'black', 'brown', 'special needs']
-    },
-    {
-      name: 'Zena',
-      animal: 'dog',
-      breed: 'Shepherd & Great Pyrenees Mix',
-      age: 'Adult',
-      gender: 'Female',
-      image_url: 'img/pets/zena.jpeg',
-      tags: ['dog', 'shepherd', 'great pyrenees', 'adult', 'female', 'short hair', 'large', 'brown', 'white']
-    },
-    {
-      name: 'Sweetheart',
-      animal: 'cat',
-      breed: 'Domestic Short Hair Mix',
-      age: 'Adult',
-      gender: 'Female',
-      image_url: 'img/pets/sweetheart.jpeg',
-      tags: ['cat', 'domestic', 'adult', 'female', 'short hair', 'large', 'white', 'black']
-    },
-    {
-      name: 'Nigel',
-      animal: 'rabbit',
-      breed: 'Bunny Rabbit',
-      age: 'Adult',
-      gender: 'Male',
-      image_url: 'img/pets/nigel.jpeg',
-      tags: ['rabbit', 'bunny rabbit', 'adult', 'male', 'small', 'brown']
-    },
-    {
-      name: 'Holly',
-      animal: 'dog',
-      breed: 'Dachshund & Maltese Mix',
-      age: 'Baby',
-      gender: 'Female',
-      image_url: 'img/pets/holly.jpeg',
-      tags: ['dog', 'maltese', 'dachshund', 'baby', 'female', 'small', 'white', 'children']
-    },
-    {
-      name: 'Gary',
-      animal: 'cat',
-      breed: 'Domestic Short Hair Mix',
-      age: 'Young',
-      gender: 'Male',
-      image_url: 'img/pets/gary.jpeg',
-      tags: ['cat', 'domestic', 'young', 'male', 'medium hair', 'medium', 'black']
-    },
-    {
-      name: 'Mika',
-      animal: 'cat',
-      breed: 'Domestic Long Hair Mix',
-      age: 'Adult',
-      gender: 'Female',
-      image_url: 'img/pets/mika.jpeg',
-      tags: ['cat', 'domestic', 'adult', 'female', 'long hair', 'medium', 'black', 'brown', 'fluffy']
-    },
-    {
-      name: 'Sandy',
-      animal: 'rabbit',
-      breed: 'Californian',
-      age: 'Adult',
-      gender: 'Female',
-      image_url: 'img/pets/sandy.jpeg',
-      tags: ['rabbit', 'californian', 'adult', 'female', 'medium', 'white']
-    },
-    {
-      name: 'Picasso',
-      animal: 'dog',
-      breed: 'Dachshund Mix',
-      age: 'Baby',
-      gender: 'Male',
-      image_url: 'img/pets/picasso.jpeg',
-      tags: ['dog', 'dachshund', 'baby', 'male', 'small', 'brown', 'blonde', 'children']
-    },
-    {
-      name: 'Lando',
-      animal: 'rabbit',
-      breed: 'Himalayan',
-      age: 'Senior',
-      gender: 'Female',
-      image_url: 'img/pets/lando.jpeg',
-      tags: ['rabbit', 'himalayan', 'senior', 'female', 'medium', 'white']
-    },
-    {
-      name: 'Sally',
-      animal: 'dog',
-      breed: 'Dachshund & Beagle Mix',
-      age: 'Baby',
-      gender: 'Female',
-      image_url: 'img/pets/sally.jpeg',
-      tags: ['dog', 'beagle', 'dachshund', 'baby', 'female', 'small', 'black', 'children']
+      breed: 'Europejski',
+      age: '3 lata',
+      gender: 'Kotka',
+      image_url: 'img/pets/panda.jpg',
+	  facebook: 'https://www.facebook.com/pg/DogRescueKoty/photos/?tab=album&album_id=602788866598749',
+      tags: ['kot', 'kotka', 'szylkret', 'szylkretka', 'spokojna', 'akceptuje koty', 'młoda', 'panda']
+	
     }
+	
+	
   ]
 }
